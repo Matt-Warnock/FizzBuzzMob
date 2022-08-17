@@ -8,4 +8,9 @@ class FizzBuzzMobTest {
         assertEquals("1", new FizzBuzzMob().convert(1));
     }
 
+    @Test
+    void convertsTwo() {
+        assertEquals("2", new FizzBuzzMob().convert(2));
+    }
+
 }
