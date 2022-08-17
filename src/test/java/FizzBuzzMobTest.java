@@ -13,4 +13,9 @@ class FizzBuzzMobTest {
         assertEquals("2", new FizzBuzzMob().convert(2));
     }
 
+    @Test
+    void convertsFour() {
+        assertEquals("4", new FizzBuzzMob().convert(4));
+    }
+
 }
