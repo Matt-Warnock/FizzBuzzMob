@@ -53,6 +53,10 @@ class FizzBuzzMobTest {
         assertEquals("Buzz", fizzBuzzMob.convert(20));
     }
 
+    @Test
+    void convertsFifteen() {
+        assertEquals("Fizz Buzz", fizzBuzzMob.convert(15));
+    }
 
 
 }
